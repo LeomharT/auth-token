@@ -9,4 +9,9 @@
     headers: { 'authorization': `Bearer ${token}` },
 ```
 
-调用流程看前端项目`App.tsx`
+调用流程看前端项目`auth0/src/components/App.tsx`
+
+具体流程
+1. 前端请求token
+2. 保存或不保存,不保存就每次都要发送token请求
+3. 后续其他API加上headers: { 'authorization': `Bearer ${token}` },
