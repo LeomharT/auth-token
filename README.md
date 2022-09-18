@@ -15,3 +15,5 @@
 1. 前端请求token
 2. 保存或不保存,不保存就每次都要发送token请求
 3. 后续其他API加上headers: { 'authorization': `Bearer ${token}` },
+refreach api lifetime
+
